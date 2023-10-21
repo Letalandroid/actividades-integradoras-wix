@@ -16,6 +16,9 @@ const SectText = ({
 	iframe_url,
 	embed_url,
 }: SectTextInterface) => {
+
+	document.title = document.title + ` | ${title}`;
+
 	return (
 		<div className={styles.container}>
 			<Title title={title} />

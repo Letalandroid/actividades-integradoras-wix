@@ -11,7 +11,7 @@ const Header = () => {
 				<a href="/mapa-de-contexto">Mapa de contexto</a>
 				<a href="/narracion-colectiva">Narración colectiva</a>
 				<a href="/mapa-recorrido">Mapa de recorrido</a>
-				<a href="/expo">Exposición</a>
+				<a href="/exposicion">Exposición</a>
 			</nav>
 		</header>
 	);
