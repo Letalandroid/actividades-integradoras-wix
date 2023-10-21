@@ -10,7 +10,7 @@ const Header = () => {
 				<a href="#presentación">Presentación</a>
 				<a href="/mapa-de-contexto">Mapa de contexto</a>
 				<a href="/narracion-colectiva">Narración colectiva</a>
-				<a href="/mapa-contexto">Mapa de recorrido</a>
+				<a href="/mapa-recorrido">Mapa de recorrido</a>
 				<a href="/expo">Exposición</a>
 			</nav>
 		</header>
