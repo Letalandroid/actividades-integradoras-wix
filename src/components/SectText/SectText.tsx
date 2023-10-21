@@ -28,10 +28,17 @@ const SectText = ({
 					''
 				)}
 				<section className={styles.section}>
-					{descripcion ? (
+					{iframe_url ? (
+						<iframe
+							width="1519"
+							height="595"
+							src={iframe_url}
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowFullScreen></iframe>
+					) : descripcion ? (
 						<p>{descripcion}</p>
 					) : (
-						<embed src={embed_url} type='application/pdf' />
+						<embed src={embed_url} type="application/pdf" />
 					)}
 				</section>
 			</div>
