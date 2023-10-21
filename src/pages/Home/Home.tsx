@@ -1,6 +1,5 @@
 import styles from './Home.module.scss';
 import Header from '../../components/Header/Header';
-import Title from '../../components/Title/Title';
 import SectText from '../../components/SectText/SectText';
 import yoxd from '../../assets/yo.jpg';
 
