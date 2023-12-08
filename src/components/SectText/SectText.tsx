@@ -14,38 +14,37 @@ const SectText = ({
 	img,
 	descripcion,
 	iframe_url,
-	embed_url,
+	embed_url
 }: SectTextInterface) => {
-
 	document.title = document.title + ` | ${title}`;
 
 	return (
-		<div className={styles.container}>
-			<Title title={title} />
-			<div className={styles.container__secttext}>
-				{img ? (
-					<section className={styles.section}>
-						<img src={img} />
-					</section>
-				) : (
-					''
-				)}
-				<section className={styles.section}>
-					{iframe_url ? (
-						<iframe
-							width="1519"
-							height="595"
-							src={iframe_url}
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							allowFullScreen></iframe>
-					) : descripcion ? (
-						<p>{descripcion}</p>
+			<div className={styles.container}>
+				<Title title={title} />
+				<div className={styles.container__secttext}>
+					{img ? (
+						<section className={styles.section}>
+							<img src={img} />
+						</section>
 					) : (
-						<embed src={embed_url} type="application/pdf" />
+						''
 					)}
-				</section>
+					<section className={styles.section}>
+						{iframe_url ? (
+							<iframe
+								width="1519"
+								height="595"
+								src={iframe_url}
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								allowFullScreen></iframe>
+						) : descripcion ? (
+							<p>{descripcion}</p>
+						) : (
+							<embed src={embed_url} type="application/pdf" />
+						)}
+					</section>
+				</div>
 			</div>
-		</div>
 	);
 };
 
