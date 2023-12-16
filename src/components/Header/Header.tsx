@@ -14,14 +14,14 @@ const Header = () => {
 			<img className={styles.header__logo} src={logo} />
 
 			{nav ? (
-				<nav style={{'top': 0}} className={styles.header__nav}>
+				<nav style={{ top: 0 }} className={styles.header__nav}>
 					<a href="/">Inicio</a>
 					<a href="/presentacion">Presentación</a>
 					<a href="/mapa-de-contexto">Mapa de contexto</a>
 					<a href="/narracion-colectiva">Narración colectiva</a>
 					<a href="/mapa-recorrido">Mapa de recorrido</a>
-					<a href="/objetivos">Objetivos</a>
 					<a href="/exposicion">Exposición</a>
+					<a href="/objetivos">Objetivos</a>
 					<a href="/collage">Collage</a>
 					<a href="/juego-roles">Juego de Roles</a>
 					<a href="/storyboard">StoryBoard</a>
@@ -34,11 +34,14 @@ const Header = () => {
 					<a href="/mapa-de-contexto">Mapa de contexto</a>
 					<a href="/narracion-colectiva">Narración colectiva</a>
 					<a href="/mapa-recorrido">Mapa de recorrido</a>
-					<a href="/objetivos">Objetivos</a>
 					<a href="/exposicion">Exposición</a>
+					<a href="/objetivos">Objetivos</a>
+					{/* Spot Publicitario */}
 					<a href="/collage">Collage</a>
+					{/* Gion */}
 					<a href="/juego-roles">Juego de Roles</a>
 					<a href="/storyboard">StoryBoard</a>
+					{/* Ficha de Monitoreo */}
 					<a href="/examen-final">E. Final</a>
 				</nav>
 			)}

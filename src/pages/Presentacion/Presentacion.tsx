@@ -8,7 +8,7 @@ const Presentacion = () => {
 		<>
 			<Header />
 			<main className={styles.main}>
-				<SectText title="Presentación" embed_url={presentacion} />
+				<SectText title="Presentación de Equipo" embed_url={presentacion} />
 			</main>
 		</>
 	);
