@@ -8,6 +8,7 @@ import MapaRecorrido from './pages/MapaRecorrido/MapaRecorrido'
 import Objetivos from './pages/Objetivos/Objetivos'
 import Expo from './pages/Expo/Expo'
 import Collage from './pages/Collage/Collage';
+import Guion from './pages/Guion/Guion';
 import JuegoRoles from './pages/JuegoRoles/JuegoRoles';
 import Storyboard from './pages/Storyboard/Storyboard';
 import EParcial from './pages/EParcial/EParcial';
@@ -24,6 +25,7 @@ function App() {
 			<Route path="/objetivos" element={<Objetivos />} />
 			<Route path="/exposicion" element={<Expo />} />
 			<Route path="/collage" element={<Collage />} />
+			<Route path="/guion" element={<Guion />} />
 			<Route path="/juego-roles" element={<JuegoRoles />} />
 			<Route path="/storyboard" element={<Storyboard />} />
 			<Route path="/examen-final" element={<EParcial />} />

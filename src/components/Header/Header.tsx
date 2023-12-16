@@ -38,7 +38,7 @@ const Header = () => {
 					<a href="/objetivos">Objetivos</a>
 					{/* Spot Publicitario */}
 					<a href="/collage">Collage</a>
-					{/* Gion */}
+					<a href="/guion">Guion</a>
 					<a href="/juego-roles">Juego de Roles</a>
 					<a href="/storyboard">StoryBoard</a>
 					{/* Ficha de Monitoreo */}
